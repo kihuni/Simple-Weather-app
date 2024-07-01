@@ -17,7 +17,7 @@ def get_weather_and_location(ip):
     # Actual implementation for production
     location_api_url = f'http://ip-api.com/json/{ip}'
     weather_api_url = 'https://api.openweathermap.org/data/2.5/weather'
-    weather_api_key = 'YOUR_WEATHER_API_KEY'
+    weather_api_key = 'MY_WEATHER_API_KEY'
 
     try:
         location_response = requests.get(location_api_url).json()
